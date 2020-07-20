@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funda.Api", "Funda.Api\Funda.Api.csproj", "{8742CF16-61FE-4B6B-9CC6-F02B16DC392C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funda.Connectors.FundaAPI", "Funda.Connectors.FundaAPI\Funda.Connectors.FundaAPI.csproj", "{B549D992-D143-4D13-90B5-AFEDC00B1161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funda.Tests.UnitTests", "Funda.Tests.UnitTests\Funda.Tests.UnitTests.csproj", "{6681431C-7EA6-4AD2-ACFE-F23129289B5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8742CF16-61FE-4B6B-9CC6-F02B16DC392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8742CF16-61FE-4B6B-9CC6-F02B16DC392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8742CF16-61FE-4B6B-9CC6-F02B16DC392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8742CF16-61FE-4B6B-9CC6-F02B16DC392C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B549D992-D143-4D13-90B5-AFEDC00B1161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B549D992-D143-4D13-90B5-AFEDC00B1161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B549D992-D143-4D13-90B5-AFEDC00B1161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B549D992-D143-4D13-90B5-AFEDC00B1161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6681431C-7EA6-4AD2-ACFE-F23129289B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6681431C-7EA6-4AD2-ACFE-F23129289B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6681431C-7EA6-4AD2-ACFE-F23129289B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6681431C-7EA6-4AD2-ACFE-F23129289B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
