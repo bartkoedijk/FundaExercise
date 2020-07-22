@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace Funda.Connectors.FundaAPI.Models
 {
-    public class Huis
+    public class House
     {
         [JsonProperty("AangebodenSindsTekst")]
         public string AangebodenSindsTekst { get; set; }

@@ -40,13 +40,13 @@ namespace Funda.Tests.UnitTests
         {
             return new ResultOverview
             {
-                Huizen = new List<Huis>
+                Huizen = new List<House>
                 {
-                    new Huis
+                    new House
                     {
                         MakelaarNaam = "FRIS Woningmakelaars Amsterdam"
                     },
-                    new Huis
+                    new House
                     {
                         MakelaarNaam = "Heeren Makelaars"
                     }

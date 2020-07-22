@@ -25,7 +25,7 @@ namespace Funda.Connectors.FundaAPI.Models
         public Metadata Metadata { get; set; }
 
         [JsonProperty("Objects")]
-        public List<Huis> Huizen { get; set; }
+        public List<House> Huizen { get; set; }
 
         [JsonProperty("Paging")]
         public Paging Paging { get; set; }

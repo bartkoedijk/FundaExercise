@@ -10,10 +10,8 @@ namespace Funda.Connectors.FundaAPI.Extensions
             services.AddScoped<IFundaConnector, FundaConnector>();
             var key = Environment.GetEnvironmentVariable("FundaKey");
             
-            services.AddHttpClient<IFundaConnector, FundaConnector>("Funda", client =>
-            {
-                client.BaseAddress = new Uri($"http://partnerapi.funda.nl/feeds/Aanbod.svc/json/{key}");
-            } );
+            services.AddHttpClient<IFundaConnector, FundaConnector>("Funda",
+                client => { client.BaseAddress = new Uri($"http://partnerapi.funda.nl/feeds/Aanbod.svc/json/{key}/"); });
             return services;
         }
     }
